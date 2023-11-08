@@ -6,6 +6,9 @@
 ### 3. mvn compile
 ### 4. mvn buid
 
+---
+<br>
+
 ## mvn clean
 ### this command is used to clean the target folder
 ### It will erase all dependency files from folder
@@ -14,24 +17,36 @@ like class fies of java and test files of java
 ## there are some artifacts which are created by maven
 1. jar - java archive 
 2. war - web archive
+ ---
+<br>
 
 ## mvn test
 ### this command is used to test the project
 ### it will run all the test cases in the project
 
+ ---
+<br>
+
 ## mvn compile
 ### this command is used to compile the project
 ### it will compile all the java files in the project
+
+ ---
+<br>
 
 ## mvn build
 ### this command is used to build the project
 ### it will build the project and create the jar file of the project
 
+ ---
+<br>
+
 ## mvn package
 ### this command is used to package the project
 ### it will package the project and create the jar file of the project
 
-
+ ---
+<br>
 
 ## jar file
 ### jar file is the java archive file
