@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
-  <artifactId>hello-world</artifactId>
-  <version>1.0</version>
+  <artifactId>Calculator</artifactId>
+  <version>1.1</version>
 
   <name>hello-world</name>
   <!-- FIXME change it to the project's website -->
@@ -16,6 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <app.name>Calculator</app.name>
   </properties>
 
   <dependencies>
@@ -51,6 +52,13 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+            <configuration>
+             <archive>    
+                <manifest>
+                  <mainClass>com.mycompany.app.App</mainClass>
+               </manifest>
+             </archive>
+             </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
