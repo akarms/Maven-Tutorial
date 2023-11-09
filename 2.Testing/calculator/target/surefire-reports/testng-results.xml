@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-09T07:33:35 IST" name="Surefire suite" finished-at="2023-11-09T07:33:35 IST" duration-ms="32">
+  <suite started-at="2023-11-09T11:24:05 IST" name="CalculatorSuite" finished-at="2023-11-09T11:24:05 IST" duration-ms="89">
     <groups>
+      <group name="AdvancedOperations">
+        <method signature="CalculatorTest.testDivide()[pri:0, instance:com.example.CalculatorTest@470f1802]" name="testDivide" class="com.example.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiply()[pri:0, instance:com.example.CalculatorTest@470f1802]" name="testMultiply" class="com.example.CalculatorTest"/>
+      </group> <!-- AdvancedOperations -->
+      <group name="BasicOperations">
+        <method signature="CalculatorTest.testAdd2(int,int,int)[pri:1, instance:com.example.CalculatorTest@161479c6]" name="testAdd2" class="com.example.CalculatorTest"/>
+        <method signature="CalculatorTest.testadd()[pri:1, instance:com.example.CalculatorTest@161479c6]" name="testadd" class="com.example.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtract()[pri:2, instance:com.example.CalculatorTest@161479c6]" name="testSubtract" class="com.example.CalculatorTest"/>
+      </group> <!-- BasicOperations -->
     </groups>
-    <test started-at="2023-11-09T07:33:35 IST" name="Surefire test" finished-at="2023-11-09T07:33:35 IST" duration-ms="32">
-      <class name="com.example.AppTest">
-        <test-method signature="testApp()[pri:0, instance:testApp(com.example.AppTest)]" started-at="2023-11-09T07:33:35 IST" name="testApp" finished-at="2023-11-09T07:33:35 IST" duration-ms="16" status="PASS">
+    <test started-at="2023-11-09T11:24:05 IST" name="BasicOperationsTest" finished-at="2023-11-09T11:24:05 IST" duration-ms="58">
+      <class name="com.example.CalculatorTest">
+        <test-method signature="testAdd2(int,int,int)[pri:1, instance:com.example.CalculatorTest@161479c6]" started-at="2023-11-09T11:24:05 IST" name="testAdd2" data-provider="dataForAddition" finished-at="2023-11-09T11:24:05 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApp -->
-      </class> <!-- com.example.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- testAdd2 -->
+        <test-method signature="testAdd2(int,int,int)[pri:1, instance:com.example.CalculatorTest@161479c6]" started-at="2023-11-09T11:24:05 IST" name="testAdd2" data-provider="dataForAddition" finished-at="2023-11-09T11:24:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+        <test-method signature="testSubtract()[pri:2, instance:com.example.CalculatorTest@161479c6]" started-at="2023-11-09T11:24:05 IST" name="testSubtract" finished-at="2023-11-09T11:24:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+        <test-method signature="testadd()[pri:1, instance:com.example.CalculatorTest@161479c6]" started-at="2023-11-09T11:24:05 IST" name="testadd" finished-at="2023-11-09T11:24:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadd -->
+        <test-method signature="testAdd2(int,int,int)[pri:1, instance:com.example.CalculatorTest@161479c6]" started-at="2023-11-09T11:24:05 IST" name="testAdd2" data-provider="dataForAddition" finished-at="2023-11-09T11:24:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2 -->
+      </class> <!-- com.example.CalculatorTest -->
+    </test> <!-- BasicOperationsTest -->
+    <test started-at="2023-11-09T11:24:05 IST" name="AdvancedOperationsTest" finished-at="2023-11-09T11:24:05 IST" duration-ms="10">
+      <class name="com.example.CalculatorTest">
+        <test-method signature="testDivide()[pri:0, instance:com.example.CalculatorTest@470f1802]" started-at="2023-11-09T11:24:05 IST" name="testDivide" finished-at="2023-11-09T11:24:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivide -->
+        <test-method signature="testMultiply()[pri:0, instance:com.example.CalculatorTest@470f1802]" started-at="2023-11-09T11:24:05 IST" name="testMultiply" finished-at="2023-11-09T11:24:05 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+      </class> <!-- com.example.CalculatorTest -->
+    </test> <!-- AdvancedOperationsTest -->
+  </suite> <!-- CalculatorSuite -->
 </testng-results>
